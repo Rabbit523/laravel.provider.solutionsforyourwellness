@@ -1,0 +1,21 @@
+<?php 
+$app->make("config")->set("Debug.debug", "1");
+$app->make("config")->set("default_language.folder_code", "eng");
+$app->make("config")->set("default_language.language_code", "1");
+$app->make("config")->set("default_language.name", "English");
+$app->make("config")->set("Email.client", "gmail.com");
+$app->make("config")->set("Email.host", "ssl://smtp.gmail.com");
+$app->make("config")->set("Email.password", "networthy2014");
+$app->make("config")->set("Email.port", "465");
+$app->make("config")->set("Email.timeout", "30");
+$app->make("config")->set("Email.username", "networthygipl@gmail.com");
+$app->make("config")->set("Reading.date_format", "d-M-Y");
+$app->make("config")->set("Reading.records_per_page", 10);
+$app->make("config")->set("Site.email", "owebest01@gmail.com");
+$app->make("config")->set("Site.title", "Phoenun");
+$app->make("config")->set("Social.blog", "http://blogger.com");
+$app->make("config")->set("Social.facebook", "http://facebook.com");
+$app->make("config")->set("Social.gplus", "https://plus.google.com");
+$app->make("config")->set("Social.pinterest", "http://pinterest.com");
+$app->make("config")->set("Social.twitter", "http://twitter.com");
+$app->make("config")->set("Social.youtube", "http://youtube.com");
